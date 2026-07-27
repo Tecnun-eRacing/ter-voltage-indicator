@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RP-1505S
+D Recom 1W Isolated DC-DC Converter, Vin 13.5  16.5 V dc, Vout 5V dc, I/O isolation 2600V ac
+K
+F https://componentsearchengine.com/Datasheets/2/RP-1505S.pdf
+$ENDCMP
+#
+#End Doc Library

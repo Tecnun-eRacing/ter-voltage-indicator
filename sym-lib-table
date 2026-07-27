@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "VIPER06XS") (type "KiCad") (uri "${KIPRJMOD}/lib/VIPER06XS/VIPER06XS.kicad_sym") (options "") (descr ""))
+	(lib (name "STTH110A") (type "KiCad") (uri "${KIPRJMOD}/lib/STTH110A/STTH110A.kicad_sym") (options "") (descr ""))
+	(lib (name "RP-1505S") (type "KiCad") (uri "${KIPRJMOD}/lib/RP-1505S/RP-1505S.kicad_sym") (options "") (descr ""))
+)

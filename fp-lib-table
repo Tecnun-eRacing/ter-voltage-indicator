@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "VIPER06XS") (type "KiCad") (uri "${KIPRJMOD}/lib/VIPER06XS") (options "") (descr ""))
+	(lib (name "STTH110A") (type "KiCad") (uri "${KIPRJMOD}/lib/STTH110A") (options "") (descr ""))
+	(lib (name "RP-1505S") (type "KiCad") (uri "${KIPRJMOD}/lib/RP-1505S") (options "") (descr ""))
+)
