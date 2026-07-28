@@ -2327,7 +2327,7 @@
 	)
 	(rectangle
 		(start 12.7 15.24)
-		(end 71.12 43.18)
+		(end 74.93 43.18)
 		(stroke
 			(width 0)
 			(type default)
@@ -2380,10 +2380,10 @@
 		(uuid "fb222363-35fa-4593-9b0c-9dcd87de920d")
 	)
 	(junction
-		(at 59.69 27.94)
+		(at 63.5 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "05bc686f-4079-47f7-9068-5d567599b534")
+		(uuid "151f8186-99c1-468a-8569-009030bf32d0")
 	)
 	(junction
 		(at 210.82 59.69)
@@ -2589,13 +2589,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 27.94) (xy 59.69 27.94)
+			(xy 53.34 27.94) (xy 53.34 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43dd31e6-98b2-4486-91bb-649c64b04bef")
+		(uuid "427032fa-f121-4488-8db1-eb24971c4514")
 	)
 	(wire
 		(pts
@@ -2699,6 +2699,26 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 33.02) (xy 59.69 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd56dca-b2ca-4a39-a3ae-5334a5bd8256")
+	)
+	(wire
+		(pts
+			(xy 59.69 33.02) (xy 59.69 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c1eaac2-8759-4808-af56-a550c2622238")
+	)
+	(wire
+		(pts
 			(xy 147.32 110.49) (xy 156.21 110.49)
 		)
 		(stroke
@@ -2749,7 +2769,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 27.94) (xy 67.31 27.94)
+			(xy 63.5 27.94) (xy 71.12 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2829,6 +2849,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 30.48) (xy 45.72 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f9d148-63c6-4f71-9683-2110651bf26f")
+	)
+	(wire
+		(pts
 			(xy 227.33 62.23) (xy 227.33 67.31)
 		)
 		(stroke
@@ -2876,6 +2906,16 @@
 			(type default)
 		)
 		(uuid "a0d39faf-c584-4082-99bf-a2814e7e18f9")
+	)
+	(wire
+		(pts
+			(xy 59.69 27.94) (xy 63.5 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a43f1e30-b4e4-4c91-947b-e9c13dd2a935")
 	)
 	(wire
 		(pts
@@ -3138,7 +3178,7 @@
 		(uuid "23f77e9c-eb7f-4231-9b20-d23364cc7a08")
 	)
 	(label "Vin"
-		(at 67.31 27.94 0)
+		(at 71.12 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3493,7 +3533,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 74.93 17.78 0)
+		(at 78.74 17.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3504,7 +3544,7 @@
 		(fields_autoplaced yes)
 		(uuid "09619d5d-8232-4994-85aa-07407ba10522")
 		(property "Reference" "H1"
-			(at 77.47 16.5099 0)
+			(at 81.28 16.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3515,7 +3555,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 77.47 19.0499 0)
+			(at 81.28 19.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3526,7 +3566,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 74.93 17.78 0)
+			(at 78.74 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3537,7 +3577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 17.78 0)
+			(at 78.74 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3548,7 +3588,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 74.93 17.78 0)
+			(at 78.74 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4229,7 +4269,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 59.69 31.75 0)
+		(at 63.5 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4240,7 +4280,7 @@
 		(fields_autoplaced yes)
 		(uuid "51bbb5fc-d600-4b70-9986-219203f14a81")
 		(property "Reference" "C1"
-			(at 63.5 30.4799 0)
+			(at 67.31 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4251,7 +4291,7 @@
 			)
 		)
 		(property "Value" "220n"
-			(at 63.5 33.0199 0)
+			(at 67.31 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4262,7 +4302,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
-			(at 60.6552 35.56 0)
+			(at 64.4652 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4273,7 +4313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 31.75 0)
+			(at 63.5 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4284,7 +4324,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 59.69 31.75 0)
+			(at 63.5 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4726,10 +4766,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "68b7b0b4-b563-4340-a3c3-fa8e48e07b1e")
 		(property "Reference" "R1"
-			(at 49.53 21.59 90)
+			(at 48.26 25.908 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4738,8 +4777,8 @@
 				)
 			)
 		)
-		(property "Value" "82"
-			(at 49.53 24.13 90)
+		(property "Value" "27"
+			(at 51.308 25.908 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4748,7 +4787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 49.53 29.718 90)
 			(hide yes)
 			(show_name no)
@@ -5028,7 +5067,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 74.93 22.86 0)
+		(at 78.74 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5039,7 +5078,7 @@
 		(fields_autoplaced yes)
 		(uuid "78729b54-8403-40e0-a5ca-417b966a5d0e")
 		(property "Reference" "H2"
-			(at 77.47 21.5899 0)
+			(at 81.28 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5050,7 +5089,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 77.47 24.1299 0)
+			(at 81.28 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5061,7 +5100,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 74.93 22.86 0)
+			(at 78.74 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5072,7 +5111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 22.86 0)
+			(at 78.74 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5083,7 +5122,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 74.93 22.86 0)
+			(at 78.74 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5282,6 +5321,85 @@
 			(project "vi"
 				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84bf7d9d-ca0f-43b8-9f7f-daff7e4241ac")
+		(property "Reference" "R9"
+			(at 41.402 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27"
+			(at 43.942 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 49.53 34.798 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "47798421-ff82-419d-9454-7e06a521a9dd")
+		)
+		(pin "1"
+			(uuid "12b5b818-709f-4413-887e-6df323a7e4db")
+		)
+		(instances
+			(project "vi"
+				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6266,7 +6384,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 74.93 27.94 0)
+		(at 78.74 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6277,7 +6395,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4d574e3-c0d6-4702-83cf-e8de74b00345")
 		(property "Reference" "H3"
-			(at 77.47 26.6699 0)
+			(at 81.28 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6288,7 +6406,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 77.47 29.2099 0)
+			(at 81.28 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6299,7 +6417,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 74.93 27.94 0)
+			(at 78.74 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6310,7 +6428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 27.94 0)
+			(at 78.74 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6321,7 +6439,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 74.93 27.94 0)
+			(at 78.74 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6504,7 +6622,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 35.56 0)
+		(at 63.5 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6515,7 +6633,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7dae50a-7e56-4c8e-aec9-0172e948c3df")
 		(property "Reference" "#PWR04"
-			(at 59.69 41.91 0)
+			(at 63.5 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6526,7 +6644,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 40.64 0)
+			(at 63.5 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6536,7 +6654,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 35.56 0)
+			(at 63.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6547,7 +6665,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 35.56 0)
+			(at 63.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6558,7 +6676,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 35.56 0)
+			(at 63.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6575,6 +6693,85 @@
 			(project "vi"
 				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f85d4273-b9f2-4dc3-9991-6772c639d8e3")
+		(property "Reference" "R8"
+			(at 55.118 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27"
+			(at 57.404 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 49.53 32.258 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "47a23339-bff0-4d54-a079-c3d05a5a2239")
+		)
+		(pin "1"
+			(uuid "37871abb-263d-4f4e-a464-19daf7c9e520")
+		)
+		(instances
+			(project "vi"
+				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
+					(reference "R8")
 					(unit 1)
 				)
 			)
