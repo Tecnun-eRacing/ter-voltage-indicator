@@ -3,4 +3,5 @@
 	(lib (name "VIPER06XS") (type "KiCad") (uri "${KIPRJMOD}/lib/VIPER06XS/VIPER06XS.kicad_sym") (options "") (descr ""))
 	(lib (name "STTH110A") (type "KiCad") (uri "${KIPRJMOD}/lib/STTH110A/STTH110A.kicad_sym") (options "") (descr ""))
 	(lib (name "RP-1505S") (type "KiCad") (uri "${KIPRJMOD}/lib/RP-1505S/RP-1505S.kicad_sym") (options "") (descr ""))
+	(lib (name "SRR1208-472KL") (type "KiCad") (uri "${KIPRJMOD}/lib/SRR1208-472KL/SRR1208-472KL.kicad_sym") (options "") (descr ""))
 )

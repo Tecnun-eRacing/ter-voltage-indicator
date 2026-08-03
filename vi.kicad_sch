@@ -318,183 +318,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D"
 			(pin_numbers
 				(hide yes)
@@ -832,184 +655,6 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1466,6 +1111,220 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SRR1208-472KL:SRR1208-472KL"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 10.668 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SRR1208-472KL"
+				(at 10.668 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SRR1208"
+				(at 16.51 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRR1208.pdf"
+				(at 16.51 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Bourns SRR1208 Series Type E6 Shielded Wire-wound SMD Inductor with a Ferrite DR & RI Core, 4.7 mH Wire-Wound 300mA Idc"
+				(at 6.858 -3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" ""
+				(at 16.51 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "652-SRR1208-472KL"
+				(at 16.51 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRR1208-472KL?qs=w38AeQHYKPLS0UBXX0ITEw%3D%3D"
+				(at 16.51 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Bourns"
+				(at 16.51 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SRR1208-472KL"
+				(at 16.51 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "SRR1208-472KL_1_1"
+				(arc
+					(start 5.08 0)
+					(mid 5.4698 0.8649)
+					(end 6.35 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 0)
+					(mid 6.7398 0.8649)
+					(end 7.62 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 0)
+					(mid 8.0098 0.8649)
+					(end 8.89 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 0)
+					(mid 9.2798 0.8649)
+					(end 10.16 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2369,6 +2228,16 @@
 		)
 		(uuid "9b1595b4-1c03-4320-890a-e882dac9b3da")
 	)
+	(text "C6 es malo y las resistencias de la escalera tb. ademas hechar un ojo al condensador de la escalera\nlas resistencias pueden ser 1206 facil"
+		(exclude_from_sim no)
+		(at 147.32 141.732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cca9d5f7-1b1e-45c0-af41-68a6985badc8")
+	)
 	(text "Insulated regulator. 15v to 5v"
 		(exclude_from_sim no)
 		(at 180.848 48.006 0)
@@ -2422,12 +2291,6 @@
 		(uuid "71d13fde-17fa-4395-965c-f15a9b13c60e")
 	)
 	(junction
-		(at 142.24 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90aef096-7026-4f5f-b9b4-24b4c85af1b6")
-	)
-	(junction
 		(at 93.98 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2452,10 +2315,16 @@
 		(uuid "b1c02421-9b78-47ee-926c-bc810fb2777f")
 	)
 	(junction
-		(at 147.32 110.49)
+		(at 153.67 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b7e91eaf-6a14-47fa-bf12-d597da70263e")
+		(uuid "c9a9953e-c7b4-4c06-a11b-99a5a475a439")
+	)
+	(junction
+		(at 144.78 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca8e49ae-7a52-49c7-a2d6-335a8e46ba7c")
 	)
 	(junction
 		(at 25.4 81.28)
@@ -2499,6 +2368,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 120.65) (xy 144.78 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01c8888a-73c5-4bea-ac5d-d387e509948e")
+	)
+	(wire
+		(pts
 			(xy 210.82 59.69) (xy 219.71 59.69)
 		)
 		(stroke
@@ -2519,13 +2398,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 120.65) (xy 147.32 121.92)
+			(xy 153.67 120.65) (xy 153.67 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "113ef4b7-822c-4f49-be8c-2fbced400a17")
+	)
+	(wire
+		(pts
+			(xy 104.14 110.49) (xy 109.22 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ffeb1a-d802-42fe-bb40-75984e035dbc")
 	)
 	(wire
 		(pts
@@ -2719,17 +2608,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 110.49) (xy 156.21 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cede381-7af7-4d25-835c-4750cf93aca1")
-	)
-	(wire
-		(pts
-			(xy 142.24 95.25) (xy 142.24 110.49)
+			(xy 144.78 95.25) (xy 144.78 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2746,16 +2625,6 @@
 			(type default)
 		)
 		(uuid "72658eff-2234-411e-be06-e88d8cc33ffa")
-	)
-	(wire
-		(pts
-			(xy 114.3 110.49) (xy 119.38 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "749f048b-8868-495e-973f-7ea09b876cbe")
 	)
 	(wire
 		(pts
@@ -2809,7 +2678,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 110.49) (xy 142.24 110.49)
+			(xy 134.62 110.49) (xy 144.78 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2879,7 +2748,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 87.63) (xy 142.24 55.88)
+			(xy 144.78 87.63) (xy 144.78 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2999,16 +2868,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 110.49) (xy 134.62 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7fd7c10-0ec4-43cf-90ba-0729dfa45bf5")
-	)
-	(wire
-		(pts
 			(xy 93.98 78.74) (xy 93.98 81.28)
 		)
 		(stroke
@@ -3029,6 +2888,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 110.49) (xy 153.67 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee481dd-a5cf-4b29-b3d9-5eba9ec30e24")
+	)
+	(wire
+		(pts
 			(xy 60.96 88.9) (xy 53.34 88.9)
 		)
 		(stroke
@@ -3036,6 +2905,26 @@
 			(type default)
 		)
 		(uuid "e26bf6d9-b863-46b5-b277-e6e350c6132f")
+	)
+	(wire
+		(pts
+			(xy 144.78 110.49) (xy 144.78 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f040eb-98ff-45bd-aee3-4aec2e24957f")
+	)
+	(wire
+		(pts
+			(xy 153.67 110.49) (xy 156.21 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb1eaa0a-fd0f-427d-be96-c9d2721ca60e")
 	)
 	(wire
 		(pts
@@ -3059,7 +2948,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 55.88) (xy 142.24 55.88)
+			(xy 124.46 110.49) (xy 134.62 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f00f74e7-927a-4df1-a8f6-29ca068242cc")
+	)
+	(wire
+		(pts
+			(xy 99.06 55.88) (xy 144.78 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3079,7 +2978,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 110.49) (xy 147.32 113.03)
+			(xy 153.67 110.49) (xy 153.67 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3109,16 +3008,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 110.49) (xy 147.32 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f75241ea-48fc-470a-9b5d-8322e38b5678")
-	)
-	(wire
-		(pts
 			(xy 17.78 78.74) (xy 17.78 110.49)
 		)
 		(stroke
@@ -3136,16 +3025,6 @@
 			(type default)
 		)
 		(uuid "fa7d9c62-dd7a-45e6-b036-48cce4a42904")
-	)
-	(wire
-		(pts
-			(xy 104.14 110.49) (xy 106.68 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe405bb2-66d3-4fda-8061-8034533baea8")
 	)
 	(wire
 		(pts
@@ -3282,6 +3161,84 @@
 			(project "vi"
 				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06c0544f-1ceb-4cad-b1a5-fc8d6d438c79")
+		(property "Reference" "#PWR011"
+			(at 144.78 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9c9fc9c-a681-4fcd-ab5a-d9f9fd6becb2")
+		)
+		(instances
+			(project "vi"
+				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4110,6 +4067,148 @@
 		)
 	)
 	(symbol
+		(lib_id "SRR1208-472KL:SRR1208-472KL")
+		(at 105.41 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d9c2449-a675-46bd-8fa2-08dbbcc3bc96")
+		(property "Reference" "L1"
+			(at 113.03 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SRR1208-472KL"
+			(at 113.03 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SRR1208-472KL:SRR1208"
+			(at 121.92 206.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRR1208.pdf"
+			(at 121.92 306.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Bourns SRR1208 Series Type E6 Shielded Wire-wound SMD Inductor with a Ferrite DR & RI Core, 4.7 mH Wire-Wound 300mA Idc"
+			(at 112.268 113.538 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 121.92 506.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "652-SRR1208-472KL"
+			(at 121.92 606.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRR1208-472KL?qs=w38AeQHYKPLS0UBXX0ITEw%3D%3D"
+			(at 121.92 706.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 121.92 806.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SRR1208-472KL"
+			(at 121.92 906.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "41f54ea8-48bc-40d9-a910-f32a77948109")
+		)
+		(pin "2"
+			(uuid "50fd3f8c-2e40-44b3-badd-ae804a35a77d")
+		)
+		(instances
+			(project "vi"
+				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 95.25 55.88 90)
 		(unit 1)
@@ -4190,8 +4289,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 147.32 121.92 0)
+		(lib_id "Device:C")
+		(at 144.78 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4200,30 +4299,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4bf393f0-9024-4b6f-887b-2f960d657bf8")
-		(property "Reference" "#PWR07"
-			(at 147.32 128.27 0)
-			(hide yes)
+		(uuid "470be60e-8bde-466d-a8dc-2459187993d8")
+		(property "Reference" "C8"
+			(at 148.59 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 147.32 127 0)
+		(property "Value" "47u"
+			(at 148.59 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 147.32 121.92 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 145.7452 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4234,7 +4334,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 121.92 0)
+			(at 144.78 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 144.78 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3fd598dd-8293-46a8-a738-43de9964d9f3")
+		)
+		(pin "2"
+			(uuid "58f02c72-2f07-4435-9a35-44eb08a1f42b")
+		)
+		(instances
+			(project "vi"
+				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bf393f0-9024-4b6f-887b-2f960d657bf8")
+		(property "Reference" "#PWR07"
+			(at 153.67 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4245,7 +4426,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 121.92 0)
+			(at 153.67 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4262,6 +4443,147 @@
 			(project "vi"
 				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SRR1208-472KL:SRR1208-472KL")
+		(at 113.03 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ebc6fde-0f09-4ac3-b3af-99cbd5a3476d")
+		(property "Reference" "L2"
+			(at 120.904 112.268 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SRR1208-472KL"
+			(at 120.904 114.808 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SRR1208-472KL:SRR1208"
+			(at 129.54 206.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRR1208.pdf"
+			(at 129.54 306.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Bourns SRR1208 Series Type E6 Shielded Wire-wound SMD Inductor with a Ferrite DR & RI Core, 4.7 mH Wire-Wound 300mA Idc"
+			(at 119.888 113.538 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 129.54 506.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "652-SRR1208-472KL"
+			(at 129.54 606.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRR1208-472KL?qs=w38AeQHYKPLS0UBXX0ITEw%3D%3D"
+			(at 129.54 706.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 129.54 806.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SRR1208-472KL"
+			(at 129.54 906.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "6c906f9b-19c5-4f14-8232-c4974fb33c6c")
+		)
+		(pin "2"
+			(uuid "69506e45-6a04-495c-b131-df05dec8fd02")
+		)
+		(instances
+			(project "vi"
+				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -4344,85 +4666,6 @@
 			(project "vi"
 				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 123.19 110.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "55b00726-8231-4675-9155-a3c1bc329346")
-		(property "Reference" "L2"
-			(at 123.19 105.41 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.4m, ~300mA, 600v"
-			(at 123.19 112.776 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1208_12.7x12.7mm"
-			(at 123.19 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 123.19 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5fa6a287-d7dc-490e-8320-41bfadbc5c96")
-		)
-		(pin "1"
-			(uuid "be8c371f-cab4-4c4d-bd67-9b2868d9bc81")
-		)
-		(instances
-			(project "vi"
-				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -4676,7 +4919,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 147.32 116.84 0)
+		(at 153.67 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4687,7 +4930,7 @@
 		(fields_autoplaced yes)
 		(uuid "66e8658b-0891-4ac0-bb6a-de61f98ffce5")
 		(property "Reference" "R5"
-			(at 149.86 115.5699 0)
+			(at 156.21 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4698,7 +4941,7 @@
 			)
 		)
 		(property "Value" "Rl"
-			(at 149.86 118.1099 0)
+			(at 156.21 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4709,7 +4952,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 145.542 116.84 90)
+			(at 151.892 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4720,7 +4963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 116.84 0)
+			(at 153.67 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4731,7 +4974,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 116.84 0)
+			(at 153.67 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4787,7 +5030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 49.53 29.718 90)
 			(hide yes)
 			(show_name no)
@@ -5357,7 +5600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 49.53 34.798 90)
 			(hide yes)
 			(show_name no)
@@ -5485,7 +5728,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 142.24 91.44 270)
+		(at 144.78 91.44 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5495,7 +5738,7 @@
 		(dnp no)
 		(uuid "a14b8062-3ab1-41cd-8392-9a65e5dc94b1")
 		(property "Reference" "D4"
-			(at 144.78 90.1699 90)
+			(at 147.32 90.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5506,7 +5749,7 @@
 			)
 		)
 		(property "Value" "VS-E7FX0212-M3"
-			(at 143.764 85.852 90)
+			(at 146.304 85.852 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5517,7 +5760,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 142.24 91.44 0)
+			(at 144.78 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5528,7 +5771,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/97162/vs-e7fx0212-m3.pdf"
-			(at 142.24 91.44 0)
+			(at 144.78 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5539,7 +5782,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 142.24 91.44 0)
+			(at 144.78 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5550,7 +5793,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 142.24 91.44 0)
+			(at 144.78 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5561,7 +5804,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 142.24 91.44 0)
+			(at 144.78 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5581,6 +5824,88 @@
 			(project "vi"
 				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 134.62 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad8498cf-2f3f-4824-83e9-1387167dcafc")
+		(property "Reference" "C6"
+			(at 138.43 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 138.43 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 135.5852 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 134.62 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad2146fe-4c92-450c-b790-10affe30c64a")
+		)
+		(pin "2"
+			(uuid "38e68088-abda-435d-a41f-e174abc06f7b")
+		)
+		(instances
+			(project "vi"
+				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6144,86 +6469,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 110.49 110.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbc00ea6-b59b-4c68-b0c0-cbfb7ed73aba")
-		(property "Reference" "L1"
-			(at 110.49 105.41 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.4m, ~300mA, 600v"
-			(at 110.49 107.95 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1208_12.7x12.7mm"
-			(at 110.49 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 110.49 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5578b229-b8b8-44a1-9120-df12228b88d5")
-		)
-		(pin "1"
-			(uuid "3723f4fe-26b7-470c-a628-debd07ce1342")
-		)
-		(instances
-			(project "vi"
-				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-VDC")
 		(at 175.26 88.9 90)
 		(unit 1)
@@ -6539,88 +6784,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 134.62 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eff99152-fd7f-40d6-a6c5-9d8ac21422af")
-		(property "Reference" "C6"
-			(at 138.43 114.6809 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220u"
-			(at 138.43 117.2209 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 135.5852 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 134.62 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "37571e63-ba55-4780-88d9-4d71008b1195")
-		)
-		(pin "1"
-			(uuid "bc4e488f-d62f-4575-8547-91c29d3fda0a")
-		)
-		(instances
-			(project "vi"
-				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 63.5 35.56 0)
 		(unit 1)
@@ -6729,7 +6892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 49.53 32.258 90)
 			(hide yes)
 			(show_name no)

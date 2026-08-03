@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRR1208-472KL
+D Bourns SRR1208 Series Type E6 Shielded Wire-wound SMD Inductor with a Ferrite DR & RI Core, 4.7 mH Wire-Wound 300mA Idc
+K
+F https://www.bourns.com/docs/Product-Datasheets/SRR1208.pdf
+$ENDCMP
+#
+#End Doc Library
