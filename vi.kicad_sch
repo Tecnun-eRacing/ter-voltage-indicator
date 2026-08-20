@@ -2228,16 +2228,6 @@
 		)
 		(uuid "9b1595b4-1c03-4320-890a-e882dac9b3da")
 	)
-	(text "C6 es malo y las resistencias de la escalera tb. ademas hechar un ojo al condensador de la escalera\nlas resistencias pueden ser 1206 facil"
-		(exclude_from_sim no)
-		(at 147.32 141.732 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cca9d5f7-1b1e-45c0-af41-68a6985badc8")
-	)
 	(text "Insulated regulator. 15v to 5v"
 		(exclude_from_sim no)
 		(at 180.848 48.006 0)
