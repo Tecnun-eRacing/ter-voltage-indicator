@@ -163,6 +163,222 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2174,7 +2390,7 @@
 	)
 	(rectangle
 		(start 165.1 45.72)
-		(end 247.65 72.39)
+		(end 251.46 72.39)
 		(stroke
 			(width 0)
 			(type default)
@@ -2218,6 +2434,17 @@
 		)
 		(uuid "12d84fe5-ac34-4631-b0a5-43e9fd38fb50")
 	)
+	(text "Following this: ../datasheets/ti_buck_tutorial.pdf\n1)\nVin: 0-600v\nVout: 15v\nIout: ~25mA\nfs = 30kHz\n2)\nD = 0.0277777778\n-> 3)\n  L = 9750uH -> 9400uH = L1 + L2\ndI = 0.0555555556A (IC1 can power it)\n4)\nIf = 24.3mA\n7)\ndVout = 0.01V\nCout(min) = 23.14814uF"
+		(exclude_from_sim no)
+		(at 12.7 138.684 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "55af93c3-1cbe-4f9c-a6e4-5dff2c9221b2")
+	)
 	(text "Viper06 Buck Converter. See Figure 21 in Datasheet"
 		(exclude_from_sim no)
 		(at 39.116 47.752 0)
@@ -2245,10 +2472,10 @@
 		(uuid "151f8186-99c1-468a-8569-009030bf32d0")
 	)
 	(junction
-		(at 210.82 59.69)
+		(at 227.33 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1fc46882-f2c6-493d-9ae3-81b0b3871e9d")
+		(uuid "1aac56a4-2e07-4884-b3f4-3a774d782222")
 	)
 	(junction
 		(at 93.98 81.28)
@@ -2305,6 +2532,12 @@
 		(uuid "b1c02421-9b78-47ee-926c-bc810fb2777f")
 	)
 	(junction
+		(at 220.98 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb05177a-02ba-4415-8df4-099a2181038c")
+	)
+	(junction
 		(at 153.67 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2315,6 +2548,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca8e49ae-7a52-49c7-a2d6-335a8e46ba7c")
+	)
+	(junction
+		(at 210.82 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d545b6d3-f66c-493d-8b82-de6e2e193fce")
 	)
 	(junction
 		(at 25.4 81.28)
@@ -2368,7 +2607,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 59.69) (xy 219.71 59.69)
+			(xy 220.98 57.15) (xy 223.52 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2468,6 +2707,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 64.77) (xy 231.14 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d0c0992-36a9-45e8-af45-db2d04c6f315")
+	)
+	(wire
+		(pts
 			(xy 53.34 27.94) (xy 53.34 30.48)
 		)
 		(stroke
@@ -2525,6 +2774,16 @@
 			(type default)
 		)
 		(uuid "4f7a826f-fe19-4b52-899f-db18c776089f")
+	)
+	(wire
+		(pts
+			(xy 220.98 57.15) (xy 220.98 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff6669f-fa34-45c7-bb3b-1795ca8288cc")
 	)
 	(wire
 		(pts
@@ -2668,6 +2927,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 62.23) (xy 231.14 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82bdd2cf-ab31-4ed8-8828-1dc6c1b87ec5")
+	)
+	(wire
+		(pts
 			(xy 134.62 110.49) (xy 144.78 110.49)
 		)
 		(stroke
@@ -2675,6 +2944,16 @@
 			(type default)
 		)
 		(uuid "83c52d4b-2077-4cad-affc-a1e5968b73b4")
+	)
+	(wire
+		(pts
+			(xy 220.98 59.69) (xy 231.14 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84df4a2e-800f-4945-9025-9c7bfd6faa9e")
 	)
 	(wire
 		(pts
@@ -2708,6 +2987,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 59.69) (xy 220.98 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86fc05a3-7075-469b-bd71-74044679328b")
+	)
+	(wire
+		(pts
 			(xy 45.72 30.48) (xy 45.72 33.02)
 		)
 		(stroke
@@ -2718,7 +3007,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 62.23) (xy 227.33 67.31)
+			(xy 227.33 62.23) (xy 227.33 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2785,6 +3074,16 @@
 			(type default)
 		)
 		(uuid "a6323365-6699-40ff-ba40-4a5a0768abab")
+	)
+	(wire
+		(pts
+			(xy 227.33 64.77) (xy 227.33 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa134fb9-caf5-4ec9-806d-d6501ab05e09")
 	)
 	(wire
 		(pts
@@ -3078,7 +3377,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 223.52 59.69 90)
+		(at 227.33 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3089,7 +3388,7 @@
 		(fields_autoplaced yes)
 		(uuid "01452352-7c46-44a6-b46b-ad5a1602d5ce")
 		(property "Reference" "R7"
-			(at 223.52 53.34 90)
+			(at 227.33 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3099,7 +3398,7 @@
 			)
 		)
 		(property "Value" "200"
-			(at 223.52 55.88 90)
+			(at 227.33 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3109,7 +3408,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 223.52 61.468 90)
+			(at 227.33 58.928 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3120,7 +3419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 59.69 0)
+			(at 227.33 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3131,7 +3430,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 223.52 59.69 0)
+			(at 227.33 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3549,88 +3848,6 @@
 			(project "vi"
 				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 232.41 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0fc9e4c0-7144-4569-8142-726dc771d084")
-		(property "Reference" "J1"
-			(at 234.95 59.6899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 234.95 62.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
-			(at 232.41 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 232.41 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7307c8c5-ee26-4a84-b0f5-c4595e149ef0")
-		)
-		(pin "1"
-			(uuid "f4ac4af0-7f49-4844-adae-1442b17d8dd4")
-		)
-		(instances
-			(project "vi"
-				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5239,7 +5456,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7k 1%"
 			(at 38.1 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5293,82 +5510,6 @@
 			(project "vi"
 				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 78.74 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73f0368d-aac7-478a-805f-873fc2730059")
-		(property "Reference" "H4"
-			(at 81.28 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 81.28 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 78.74 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 78.74 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "vi"
-				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -6154,7 +6295,7 @@
 				)
 			)
 		)
-		(property "Value" "16.5k"
+		(property "Value" "16.5k 1%"
 			(at 95.25 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6371,6 +6512,94 @@
 			(project "vi"
 				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 236.22 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6e3e2ff-fa9e-48ad-b75b-0da437531d5d")
+		(property "Reference" "J1"
+			(at 238.76 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 238.76 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx04_1x04_P2.50mm_Vertical"
+			(at 236.22 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 236.22 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d7ff5def-5b9b-4193-9d58-4ddf3d58fcd9")
+		)
+		(pin "1"
+			(uuid "911f36d0-e718-4c71-a541-6ae801d6860a")
+		)
+		(pin "4"
+			(uuid "ae2483e0-12d7-4bb8-9ec5-5405e334c17c")
+		)
+		(pin "3"
+			(uuid "ac0ecead-db18-408f-9ab6-03031bc6afa1")
+		)
+		(instances
+			(project "vi"
+				(path "/1788a4c5-a043-4420-b2f7-a3ad2c3b2ef2"
+					(reference "J1")
 					(unit 1)
 				)
 			)
