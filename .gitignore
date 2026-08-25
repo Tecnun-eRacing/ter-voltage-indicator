@@ -1,3 +1,5 @@
 **/*-backups
 **/*.lck
 **/production
+**/*.log
+**/*.raw
